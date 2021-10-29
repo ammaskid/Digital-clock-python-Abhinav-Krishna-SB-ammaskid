@@ -3,7 +3,7 @@ from tkinter import Label, Tk
 
 # ======= Configuring window =========
 window = Tk()
-window.title("")
+window.title("Clock my Abhinav")
 window.geometry("200x80")
 window.configure(bg="green")  # =======Background of the clock=====
 window.resizable(False, False)  # =====setting a fixed window size =======
@@ -29,4 +29,4 @@ def update_label():
 update_label()
 window.mainloop()
 
-# ==============The end by github.com/kalebu ==========
+# ==============The end by github.com/ammaskid
